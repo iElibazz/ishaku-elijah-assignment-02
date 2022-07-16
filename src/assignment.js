@@ -14,6 +14,7 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 let arrayOfNumbers = [1, 2, 3, 4, 5]
+let sumOfNumbers = 0
 
 for (let i = 0; i < arrayOfNumbers.length; i++) {
 sumOfNumbers += arrayOfNumbers[i];
