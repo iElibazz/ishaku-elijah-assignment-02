@@ -41,9 +41,16 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 
-
+let countEvenNumbers = 0
 
 function countEvenNumbers(arrayOfNumbers) {
+
+for let q = 0; q < arrayOfNumbers.length; q++) {
+	if (array[q] % 2 === 0){
+		countEvenNumbers++;
+	}
+}
+return countEvenNumbers;
     return arrayOfNumbers.length;
 }
 assignment.countEvenNumbers = countEvenNumbers;
